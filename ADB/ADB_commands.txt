@@ -17,6 +17,8 @@
  5. Вывести в консоль логи приложения todolist
 ./adb shell "logcat | grep -nw com.android.todolist"
 
+To exit from logcat press CTRL+C
+
  6. Скопировать логи приложения todolist на компьютер.
 ./adb shell "logcat | grep -nw com.android.todolist" > C:\Users\38066\Desktop\new\001_ToDoList-master\app\build\outputs\apk\debug\log_todolist.log
 закончить запись логов ctl + c
